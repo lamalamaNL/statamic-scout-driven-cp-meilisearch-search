@@ -1,24 +1,16 @@
 {
-    "name": "elvenstar/statamic-meilisearch",
+    "name": "lamalamanl/statamic-scout-driven-cp-meilisearch-search",
     "description": "Statamic MeiliSearch addon",
     "keywords": [
         "spatie",
         "laravel-ray"
     ],
-    "homepage": "https://github.com/elvenstar/statamic-meilisearch",
+    "homepage": "https://github.com/lamalamaNL/statamic-scout-driven-cp-meilisearch-search",
     "license": "MIT",
     "authors": [
         {
-            "name": "Daniel Shields",
-            "email": "daniel@karuna.co.za",
-            "homepage": "https://twitter.com/k4runa",
-            "role": "Developer"
-        },
-        {
-            "name": "Oliver Kaufmann",
-            "email": "okaufmann91@gmail.com",
-            "homepage": "https://twitter.com/okaufmannCH",
-            "role": "Co-Developer"
+            "name": "Edwin Fennema",
+            "email": "edwin@lamalama.nl"
         }
     ],
     "require": {
@@ -35,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Elvenstar\\StatamicMeiliSearch\\": "src"
+            "LamaLamaNl\\StatamicScoutDrivenCpMeilisearchSearch\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Elvenstar\\StatamicMeiliSearch\\Tests\\": "tests"
+            "LamaLamaNl\\StatamicScoutDrivenCpMeilisearchSearch\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -60,7 +52,7 @@
         },
         "laravel": {
             "providers": [
-                "Elvenstar\\StatamicMeiliSearch\\StatamicMeiliSearchServiceProvider"
+                "LamaLamaNl\\StatamicScoutDrivenCpMeilisearchSearch\\StatamicMeiliSearchServiceProvider"
             ]
         }
     }

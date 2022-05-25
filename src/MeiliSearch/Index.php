@@ -1,6 +1,6 @@
 <?php
 
-namespace Elvenstar\StatamicMeiliSearch\MeiliSearch;
+namespace LamaLamaNl\StatamicScoutDrivenCpMeilisearchSearch\MeiliSearch;
 
 use Illuminate\Support\Str;
 use MeiliSearch\Client;

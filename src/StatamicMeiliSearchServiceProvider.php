@@ -1,6 +1,6 @@
 <?php
 
-namespace Elvenstar\StatamicMeiliSearch;
+namespace LamaLamaNl\StatamicScoutDrivenCpMeilisearchSearch;
 
 use MeiliSearch\Client;
 use Statamic\Facades\Search;
